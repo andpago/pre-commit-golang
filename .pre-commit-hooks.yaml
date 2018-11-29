@@ -61,3 +61,8 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go build`, requires golang"    
+-   id: go-doc
+    name: go-doc
+    entry: run-go-doc.sh
+    language: 'script'
+    description: "Runs `godoc2md`, requires godoc2md"
