@@ -21,3 +21,9 @@
     files: '\.toml$'
     language: 'system'
     description: "Runs `tomlv`, requires https://github.com/BurntSushi/toml/tree/master/cmd/tomlv"
+-   id: check-executables
+    name: 'check executables'
+    entry: check-executables.py
+    files: '.*'
+    language: python
+    description: "Checks for executable files"
