@@ -21,9 +21,9 @@
     files: '\.toml$'
     language: 'system'
     description: "Runs `tomlv`, requires https://github.com/BurntSushi/toml/tree/master/cmd/tomlv"
--   id: test
-    name: 'validate toml'
-    entry: 'tomlv'
-    files: '\.toml$'
-    language: 'system'
-    description: "Runs `tomlv`, requires https://github.com/BurntSushi/toml/tree/master/cmd/tomlv"
+-   id: go-test
+    name: 'go-test'
+    entry: run-go-build.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `go test`, requires golang"  
