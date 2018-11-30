@@ -25,5 +25,5 @@
     name: 'check executables'
     entry: check-executables.py
     files: '.*'
-    language: python
+    language: 'script'
     description: "Checks for executable files"
